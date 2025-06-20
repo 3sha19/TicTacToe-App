@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bbcea8;
+    text-align: center;
+    font-family: 'TIMES NEW ROMAN', Times, serif;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color:#eefcce;
+    font-size: 5vmin;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #3A4F41;
+    color: #B1740F;
+}
+#reset{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    background-color: #D1F5BE;
+    padding: 1vmin;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+#new-btn{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    background-color: #D1F5BE;
+    padding: 1vmin;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+#msg{
+    font-size: 10vmin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.msg-container {
+    height: 100vmin;
+    color: #3A4F41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+
+.choice-container button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color:#96ADC8;
+  color: #DCE2AA;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  font-weight: bold;
+}
+
+.choice-container button:hover {
+  background-color: #810365;
+  transform: scale(1.05);
+}
+
+.choice-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+    color: #69306D;
+}
+
