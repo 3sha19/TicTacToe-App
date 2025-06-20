@@ -16,3 +16,18 @@ A simple and fun Tic-Tac-Toe game built using **HTML, CSS, JavaScript**, and pac
 
 > Requires [Node.js](https://nodejs.org/) installed
 
+🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Electron
+
+TicTacToe-App/
+│
+├── index.html       # Game layout
+├── style.css        # Styling and layout
+├── app.js           # Game logic (JS)
+├── main.js          # Electron launcher
+├── package.json     # App metadata & dependencies
+└── .gitignore       # Ignores node_modules etc.
